@@ -52,15 +52,12 @@ nav a {
   padding: 16px;
   border: 1px solid black;
   color: #7B3A0C;
-  
 }
-
 
 .Hellow:hover {
   font-size: 31px;
-  background-color: #ffc49a;;
+  background-color: #ffc49a;
 }
-
 
 .Morning {
   font-size: 30px;
@@ -71,12 +68,10 @@ nav a {
   margin-left: 70px;
 }
 
-
 .Morning:hover {
-   font-size: 31px;
+  font-size: 31px;
   background-color: #be8f68;
 }
-
 
 .Sweet {
   font-size: 30px;
@@ -92,7 +87,6 @@ nav a {
   background-color: #fadded;
 }
 
-
 .Hellowen {
   color: #7B3A0C;
   font-size: 45px;
@@ -100,6 +94,7 @@ nav a {
   margin-top: 15px;
 }
 
+/* Секції */
 .season {
   background-color: rgba(224, 165, 122, 1);
   text-align: center;
@@ -117,10 +112,9 @@ nav a {
 
 .coffee-grid {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 40px;
-  justify-items: center;
-  
+  justify-content: center; /* вирівнювання по центру */
 }
 
 .coffee-card {
@@ -137,12 +131,9 @@ nav a {
 }
 
 .coffee-card:hover {
-    transform: translateY(-20px);
-    transition: 0.3s ease-out;
+  transform: translateY(-20px);
+  transition: 0.3s ease-out;
 }
-
-
-
 
 .coffee-card img {
   width: 100%;
@@ -179,10 +170,7 @@ nav a {
   border: 2px solid rgba(42, 19, 3, 1);
 }
 
-
-
-
-
+/* Секція 2 */
 .season2 {
   background-color: #A3764F;
   text-align: center;
@@ -200,10 +188,9 @@ nav a {
 
 .coffee-grid2 {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 40px;
-  justify-items: center;
-  
+  justify-content: center; /* вирівнювання по центру */
 }
 
 .coffee-card2 {
@@ -219,14 +206,10 @@ nav a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-
-
 .coffee-card2:hover {
-    transform: translateY(-20px);
-    transition: 0.3s ease-out;
+  transform: translateY(-20px);
+  transition: 0.3s ease-out;
 }
-
-
 
 .coffee-card2 img {
   width: 100%;
@@ -260,13 +243,10 @@ nav a {
 .coffee-card2 a:hover {
   background-color: white;
   font-size: 25px;
-  border: 2px solid rgba(42, 19, 3, 1);}
+  border: 2px solid rgba(42, 19, 3, 1);
+}
 
-
-
-
-
-
+/* Секція 3 */
 .season3 {
   background-color: #E0BBCF;
   text-align: center;
@@ -284,10 +264,9 @@ nav a {
 
 .coffee-grid3 {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 40px;
-  justify-items: center;
-  
+  justify-content: center; /* вирівнювання по центру */
 }
 
 .coffee-card3 {
@@ -303,12 +282,10 @@ nav a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-
 .coffee-card3:hover {
-    transform: translateY(-20px);
-    transition: 0.3s ease-out;
+  transform: translateY(-20px);
+  transition: 0.3s ease-out;
 }
-
 
 .coffee-card3 img {
   width: 100%;
@@ -342,9 +319,10 @@ nav a {
 .coffee-card3 a:hover {
   background-color: white;
   font-size: 25px;
-  border: 2px solid rgba(42, 19, 3, 1);}
+  border: 2px solid rgba(42, 19, 3, 1);
+}
 
-
+/* Footer */
 footer {
   background-color: #FEFBA3;
   width: 100%;
@@ -356,6 +334,7 @@ footer h1 {
   font-size: 50px;
   margin-left: 40px;
 }
+
 footer p {
   color: rgba(153, 142, 60, 1);
   font-size: 30px;
@@ -368,5 +347,4 @@ footer p {
   align-items: end;
   margin-right: 150px;
   padding-bottom: 50px;
-  
 }
